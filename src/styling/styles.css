@@ -1,0 +1,171 @@
+
+.landing { 
+  /* flex: 1;  */
+  /* display: flex; */
+  height: 100vh;
+  align-items: center;
+  justify-content: center; 
+  background-color: #8832BE; 
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.center {
+  /* margin: auto;
+  width: 50%;  */
+  /* top: 25%;
+  left: 25%; */
+  position: absolute;
+  transform: translate(75%, 55%);
+  
+}
+
+/*Centering the div on the right where the form is(Note that the top and right properties are what's responsble for keeping it centered to the right in that div).*/
+.right-side-div {
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  top: 15%;
+  left: fixed;
+  right: 15%;
+  bottom: 15%;
+}
+
+/* Style buttons */
+.font-btn {
+  position: relative;
+  /* background-color: #8832BE; */
+  color: #8832BE; /*Text color*/
+  /* cursor: pointer; Mouse pointer on hover */
+  /* float: right;  */
+  right: -1120px;
+  
+  /* margin-right: 200px; */
+  /* transform: translate(1175%); */
+}
+  
+.button-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+  /* Darker background on mouse-over */
+/* .btn:hover {
+  background-color: RoyalBlue;
+} */
+
+/*Creating the previously white colored main div on the page*/
+/* .rounded{
+  margin: auto; 
+  background-color: rgb(245, 245, 250);
+  border-radius: 45px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #888;
+} */
+
+
+/* .text-center {
+  // could contain code for centering text. Note that as of this point, you can actually somehow call on this call somewhere and it will center text for you.
+} */
+
+/*For giving input elements rounded borders*/
+.black-rounded-border {
+  border: 1px solid #a9a9a9;
+  border-radius: 20px;
+}
+
+
+ /*Enter css classes for increasing all label/text sizes here*/
+.text-control {
+  font-size: 40px;
+}
+
+.left-side-div {
+  position: absolute;
+  left: 0; /*This is what places the left blue-colored rectangular div exactly on the left*/
+  justify-content: center; 
+  align-items: center;
+  height: 100%;
+  background-color: #8832BE;
+  /* border: 2px solid #fafbfc; */
+}
+
+.App-logo{
+/*Should later contain code for the text and color schematics for the logo*/
+}
+
+.rounded-signup-form {
+  /* background-color: rgb(179, 179, 180); */
+  box-shadow: 0px 0px 10px #ebeaea;
+  /* border: 2px solid rgb(179, 179, 180);  */
+  border-radius: 25px; 
+  padding: 20px;
+  width: 1275px;
+}
+
+.designed-signup-header {
+  font-size: 75px;
+  font-family: Trebuchet MS, sans-serif;
+  transform: translate(0.5%, -35%); /*Centering and moving the h1 element closer to the top*/
+  /* -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #024aa8; */
+}
+
+.rounded-login-form {
+  margin: auto; 
+  background-color: rgb(248, 248, 250);
+  border-radius: 45px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #888;
+  border: 2px solid #548cf4; 
+  /* border-radius: 25px;  */
+  padding: 20px;
+  width: 1275px;
+}
+
+.designed-login-header {
+  font-size: 95px;
+  font-family: Trebuchet MS, sans-serif;
+  transform: translate(21.5%, -75%); /*Centering and moving the h1 element closer to the top*/
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #024aa8;
+
+}
+
+.designed-subheader {
+  opacity: .70; /*Changes text opacity*/
+  font-size: 42px;
+  font-family: Trebuchet MS, sans-serif;
+  /* font-weight: 800; */
+  transform: translate(0%, -105%); /*For moving the h2 element closer to the top of the div box its in*/
+}
+
+/* .center-screen {
+  position: absolute;
+  display: flex;
+  /*transform: translate(240%);*/ */
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}  */

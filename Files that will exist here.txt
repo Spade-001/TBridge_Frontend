@@ -1,0 +1,16 @@
+This level of folder contains files such as;
+
+App.js
+App.test.js
+index.js
+reportWebVitals.js
+setupTests.js
+.gitignore
+package-lock.json
+package.json
+postcss.config.js
+README.md
+tailwing.config.js
+
+// And possibly more(basically any file that YOU didn't personally create stays out here on this level)
+
